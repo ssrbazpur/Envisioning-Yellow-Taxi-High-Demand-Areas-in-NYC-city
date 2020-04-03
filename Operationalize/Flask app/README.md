@@ -29,3 +29,6 @@ scikit-learn
 pandas
 numpy
 flask
+
+
+Flask is a Python-based microframework used for developing small scale websites. Flask is very easy to make Restful API’s using python. As of now, we have develop a model i.e model.pkl which can predict a class of the data based on a various attribute of the data. 

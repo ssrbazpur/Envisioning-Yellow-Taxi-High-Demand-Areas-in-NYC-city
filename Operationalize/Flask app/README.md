@@ -16,3 +16,10 @@ Follow the prompt instructions to set it up
 >> gcloud app browse
 
 or Paste your url to new tab
+
+Why Flask?
+Easy to use.
+Built in development server and debugger.
+Integrated unit testing support.
+RESTful request dispatching.
+Extensively documented.

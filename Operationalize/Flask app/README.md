@@ -23,3 +23,9 @@ Built in development server and debugger.
 Integrated unit testing support.
 RESTful request dispatching.
 Extensively documented.
+
+Environment and tools
+scikit-learn
+pandas
+numpy
+flask

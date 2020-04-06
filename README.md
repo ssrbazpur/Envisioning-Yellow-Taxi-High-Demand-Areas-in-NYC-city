@@ -14,9 +14,7 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 <img width=400 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/ >
   </p>
 <ol> <li> <a href="">Data Discovery</a>  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,  </li>
-```
-  Link to Data Discovery: <a href=""> Data Discovery</a>
-```
+[I'm an inline-style link](https://www.google.com)
   
   <li> Data Preparation </li>
   <li> Model Planning </li>

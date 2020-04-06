@@ -8,7 +8,7 @@
 
 ### Dashboard 1 
 <p align="center">
-<img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/download%20(2).png?raw=true"/>
+<a href="google.com"><img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/download%20(2).png?raw=true"/></a>
   </p>
 
 ### Dashboard 2 

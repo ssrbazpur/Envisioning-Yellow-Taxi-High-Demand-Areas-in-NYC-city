@@ -46,12 +46,12 @@ Due to least MAE and MASE.</p>
   <h3> Model Accuracy </h3>
   <p align="center">
 
-| Model         | MAE           | Cool  |
-| ------------- |:-------------:| -----:|
-| Random Forest Regressor     | right-aligned | $1600 |
-| Xgboost Regressor      | centered      |   $12 |
-| Linear Regression | are neat      |    $1 |
-| ARIMA | are neat      |    $1 |
+  | Model         | MAE           | Cool  |
+  | ------------- |:-------------:| -----:|
+  | Random Forest Regressor     | right-aligned | $1600 |
+  | Xgboost Regressor      | centered      |   $12 |
+  | Linear Regression | are neat      |    $1 |
+  | ARIMA | are neat      |    $1 |
 
 
 </p>

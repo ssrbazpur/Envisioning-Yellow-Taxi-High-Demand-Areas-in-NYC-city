@@ -14,17 +14,17 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 <img width=400 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/ >
   </p>
   <p align="justify">
-<ol> <li> <a href=""><b>Data Discovery</b></a>  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,considering the problem as a data analytics challenge. Also Assessed resource needs and availability and drafted an analytic plan.
+<ol> <li> <a href=""><b>Data Discovery</b></a><p align="justify">  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,considering the problem as a data analytics challenge. Also Assessed resource needs and availability and drafted an analytic plan.</p>
  </li>
   
-  <li><a href=""> Data Preparation : </a></li> The key activities that I covered :
+  <li><a href=""> Data Preparation : </a></li><p align="justify"> The key activities that I covered :
  Established the analytic sandbox (Google Big Query Analytics Sandbox).
  Extract, Transform, Load, and Transform (ETLT) using Big Query Analytics Sandbox,
  Carried out Data exploration,Data conditioning (merging) and Removed outliers/Missing data.Finally Summarized and visualized the data
-
-  <li> <a href="">Model Planning </a></li> KEY ACTIVITIES
+</p>
+  <li> <a href="">Model Planning </a></li> <p align="justify"> The key activities that I did were
 Variable Selection
-Model Selection . This phase also include feature ngineering where I used One hot encoding to handle categorical variable and binning to divide time into equal bins.   
+Model Selection . This phase also include feature ngineering where I used One hot encoding to handle categorical variable and binning to divide time into equal bins.   </p>
 
   <li><a href=""> Model Building </a></li>KEY ACTIVITIES
 I took care of following while Building model:

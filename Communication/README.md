@@ -1,4 +1,4 @@
-<h3> Communication Phase</h3>
+<h2 align="center"> Communication Phase</h2> <hr>
 
 <p align="center">
 <img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Communication.png?raw=true"/>

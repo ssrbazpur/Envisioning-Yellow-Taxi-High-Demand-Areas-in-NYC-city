@@ -1,8 +1,8 @@
 <h2 align="center">Envisioning Yellow Taxi High Demand Areas in NYC city</h2>
+
 <p align="center">
-  
 <img width=600 height=300 src="https://cdn.lowgif.com/small/30eda5679770f2f2-gif-porco-rosso-animated-gif-on-gifer-by-conjuris.gif"/> </p>
-<img align="center" src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/nyc%20taxi.jpg?raw=true"/></p>
+<img align="center" src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/nyc%20taxi.jpg?raw=true"/>
   </center>
 <h3> Introduction</h3>
 <p align="justify">A unique quality about Yellow cabs is that they can pick up passengers from the streets without any pre-arranged booking required. Whereas in the case of Uber, passengers mainly use the app to arrange for the taxi. So I found a business opportunity for yellow cabs to get back on track by targeting the streets where the pickups demand are high. If the passenger waits too much they switch to apps to look for a taxi but if the passengers can see a yellow cab right in front of them, they will surely choose the yellow cab instead of waiting for Uber. Hence this data science projects focus to help the NYC TLC yellow taxis to get back on track and increase the number of pickups

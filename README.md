@@ -21,30 +21,32 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
  Extract, Transform, Load, and Transform (ETLT) using Big Query Analytics Sandbox,
  Carried out Data exploration,Data conditioning (merging) and Removed outliers/Missing data.Finally Summarized and visualized the data
 
-  <li> Model Planning </li> KEY ACTIVITIES
+  <li> <a href="">Model Planning </a></li> KEY ACTIVITIES
 Variable Selection
-Model Selection   
+Model Selection . This phase also include feature ngineering where I used One hot encoding to handle categorical variable and binning to divide time into equal bins.   
 
-  <li> Model Building </li>KEY ACTIVITIES
+  <li><a href=""> Model Building </a></li>KEY ACTIVITIES
 I took care of following while Building model:
 Train, test spilt with cross validation.
 Grid Search CV to select the best model.
 Metrics Used to Select Best Model: MAE, MASE , RMSE.
 
-  <li> Operationalize </li>A fully functional Flask app is deployed so that model can be reused.
- Google Cloud App Engine was used to deploy my model. 
- I used the local server for development and us ed the App Engine Google server for production. Also App Engine provides the DevOps support.
-Code  
+  
 
   <li> Communication </li>Key Activities:
 Prepared Dashboards for the executive.
-Prepare Jupyter Notebooks for each phase.
+Prepared Jupyter Notebooks for each phase.
 Model Used -  Random Forest Regressor.
 Due to least MAE and MASE.
+<li> <a href="">Operationalize</a> </li>A fully functional Flask app is deployed so that model can be reused.
+ Google Cloud App Engine was used to deploy my model. 
+ I used the local server for development and us ed the App Engine Google server for production. Also App Engine provides the DevOps support.
+ 
 
   </ol>
   
-  <h3> Model Acuuracy </h3>
+  <h3> Model Accuracy </h3>
+  <p align="center">
 
 | Model         | MAE           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -54,9 +56,10 @@ Due to least MAE and MASE.
 | ARIMA | are neat      |    $1 |
 
 
+</p>
 
 
-<h3> Solution Ovierview </h3>
+<h3> Solution Overview </h3>
 <p align="center">
 <IMG height=300 width=500 SRC="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/raw/master/Screenshots/Communication.png?raw=true"/></p>
 <ol>

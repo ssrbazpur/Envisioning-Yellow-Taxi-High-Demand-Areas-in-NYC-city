@@ -14,7 +14,7 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 <img width=400 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/ >
   </p>
   <p align="justify">
-<ol> <li> <a href=""><b>Data Discovery</b></a><p align="justify">  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,considering the problem as a data analytics challenge. Also Assessed resource needs and availability and drafted an analytic plan.</p>
+<ol> <li> <a href="">Data Discovery</a><p align="justify">  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,considering the problem as a data analytics challenge. Also Assessed resource needs and availability and drafted an analytic plan.</p>
  </li>
   
   <li><a href=""> Data Preparation : </a></li><p align="justify"> The key activities that I covered :
@@ -26,22 +26,19 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 Variable Selection
 Model Selection . This phase also include feature ngineering where I used One hot encoding to handle categorical variable and binning to divide time into equal bins.   </p>
 
-  <li><a href=""> Model Building </a></li>KEY ACTIVITIES
+  <li><a href=""> Model Building </a></li><p align="justify">The key activities were
 I took care of following while Building model:
 Train, test spilt with cross validation.
 Grid Search CV to select the best model.
-Metrics Used to Select Best Model: MAE, MASE , RMSE.
-
-  
-
-  <li> Communication </li>Key Activities:
+Metrics Used to Select Best Model: MAE, MASE , RMSE.</p>
+  <li> Communication </li><p align="justify">The Key Activities were:
 Prepared Dashboards for the executive.
 Prepared Jupyter Notebooks for each phase.
 Model Used -  Random Forest Regressor.
-Due to least MAE and MASE.
-<li> <a href="">Operationalize</a> </li>A fully functional Flask app is deployed so that model can be reused.
+Due to least MAE and MASE.</p>
+<li> <a href="">Operationalize</a> </li><p align="justify">A fully functional Flask app is deployed so that model can be reused.
  Google Cloud App Engine was used to deploy my model. 
- I used the local server for development and us ed the App Engine Google server for production. Also App Engine provides the DevOps support.
+ I used the local server for development and us ed the App Engine Google server for production. Also App Engine provides the DevOps support.</p>
  
 
   </ol>
@@ -64,21 +61,21 @@ Due to least MAE and MASE.
 <p align="center">
 <IMG height=300 width=500 SRC="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/raw/master/Screenshots/Communication.png?raw=true"/></p>
 <ol>
-  <li>
-I discovered the data from the TLC taxi trip website and then I retrieved the data from the AWS S3 bucket and stored all the data on Google Cloud Platform using Spark and Pandas.</li>
-  <li>
-I made Use of Big Query to analyze the data set and get only relevant rows from the dataset. I also made use of Big Query and pandas data frame to clean the data as well.</li>
-  <li>
-Carry out data exploration to find out the most demanding areas in NYC City and also to know how weather affects the count of NYC yellow taxi trips in NYC City.</li>
-  <li>
+  <li><p align="justify">
+I discovered the data from the TLC taxi trip website and then I retrieved the data from the AWS S3 bucket and stored all the data on Google Cloud Platform using Spark and Pandas.</p></li>
+  <li><p align="justify">
+I made Use of Big Query to analyze the data set and get only relevant rows from the dataset. I also made use of Big Query and pandas data frame to clean the data as well.</p></li>
+  <li><p align="justify">
+Carry out data exploration to find out the most demanding areas in NYC City and also to know how weather affects the count of NYC yellow taxi trips in NYC City.</p></li>
+  <li><p align="justify">
 Did Feature Engineering to get an effective outcome. Use methods like One hot encoding and binning in feature engineering.</li>
-  <li>
+</p>  <li><p align="justify">
     
- Divided my data set into train and test and also used cross-validation to get the optimal result from the model. The model used are ARIMA, Xgboot, Random Forest Regression, Linear Regression, Light GBM, etc. I used the Grid Search CV to get the best result from all the models shown above.</li>
-<li>
-Published a fully functional website using Flask that enables the yellow cab taxi drivers and TLC business to leverage the website to enhance their profit.</li>
-<li>
-Prepared Dashboard that can help the business know the weekly pickups in advance.</li>
+ Divided my data set into train and test and also used cross-validation to get the optimal result from the model. The model used are ARIMA, Xgboot, Random Forest Regression, Linear Regression, Light GBM, etc. I used the Grid Search CV to get the best result from all the models shown above. </p></li>
+<li><p align="justify">
+Published a fully functional website using Flask that enables the yellow cab taxi drivers and TLC business to leverage the website to enhance their profit.</p></li>
+<li><p align="justify">
+  Prepared Dashboard that can help the business know the weekly pickups in advance.</p></li>
 </ol>
 
 

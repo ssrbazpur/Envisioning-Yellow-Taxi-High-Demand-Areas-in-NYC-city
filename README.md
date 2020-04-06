@@ -1,7 +1,7 @@
 <h2 align="center">Envisioning Yellow Taxi High Demand Areas in NYC city</h2>
 <p align="center">
   
-<img src="https://cdn.lowgif.com/small/30eda5679770f2f2-gif-porco-rosso-animated-gif-on-gifer-by-conjuris.gif"/> </p>
+<img width=400 height=400 src="https://cdn.lowgif.com/small/30eda5679770f2f2-gif-porco-rosso-animated-gif-on-gifer-by-conjuris.gif"/> </p>
 <img align="center" src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/nyc%20taxi.jpg?raw=true"/></p>
   </center>
 <h3> Introduction</h3>

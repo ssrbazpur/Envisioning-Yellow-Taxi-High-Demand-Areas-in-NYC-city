@@ -42,6 +42,7 @@ Prepared Dashboard that can help the business know the weekly pickups in advance
 </ol>
 
 <h3> Model Used </h3>
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |

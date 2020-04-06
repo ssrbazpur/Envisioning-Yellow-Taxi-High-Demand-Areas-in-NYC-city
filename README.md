@@ -58,6 +58,7 @@ Due to least MAE and MASE.</p>
 <IMG height=300 width=500 SRC="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/raw/master/Screenshots/Communication.png?raw=true"/></p>
 <ol>
   <li><p align="justify">
+
 I discovered the data from the TLC taxi trip website and then I retrieved the data from the AWS S3 bucket and stored all the data on Google Cloud Platform using Spark and Pandas.</p></li>
   <li><p align="justify">
 I made Use of Big Query to analyze the data set and get only relevant rows from the dataset. I also made use of Big Query and pandas data frame to clean the data as well.</p></li>
@@ -74,4 +75,5 @@ Published a fully functional website using Flask that enables the yellow cab tax
   Prepared Dashboard that can help the business know the weekly pickups in advance.</p></li>
 </ol>
 
-
+<h3> Contact Inforamtion </h3>
+:heavy_check_mark: Email : ssrbazpur@mail.com

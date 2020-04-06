@@ -24,6 +24,9 @@ Integrated unit testing support.
 RESTful request dispatching.
 Extensively documented.
 
+
+<img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Media1.gif?raw=true"/>
+
 Environment and tools
 scikit-learn
 pandas

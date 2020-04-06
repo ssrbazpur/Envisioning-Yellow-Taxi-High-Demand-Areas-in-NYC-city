@@ -1,4 +1,4 @@
-# Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city
+# Envisioning Yellow Taxi High Demand Areas in NYC city
 <p align="center">
 <img align="center" src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/nyc%20taxi.jpg?raw=true"/></p>
   </center>

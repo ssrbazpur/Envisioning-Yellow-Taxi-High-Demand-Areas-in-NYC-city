@@ -10,7 +10,9 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 
 
 <h3> Data Analytics Lifecycle </h3>
-<img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/>
+<p align="center">
+<img width=400 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/ >
+  </p>
 <ol> <li> <a href="">Data Discovery</a> </li>
   <li> Data Preparation </li>
   <li> Model Planning </li>

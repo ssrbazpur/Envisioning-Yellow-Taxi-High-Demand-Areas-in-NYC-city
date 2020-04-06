@@ -1,6 +1,7 @@
 # Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city
-
+<center>
 <img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/nyc%20taxi.jpg?raw=true"/>
+  </center>
 
 <p align="justify">New York City is known as the home of the great yellow taxis. Yellow taxi cabs are the main vehicles that reserve the privilege of street-hailing and prearranged passengers anyplace in NYC. The vehicles that come under TLC (Taxi and Limousine Commission) includes yellow taxis, FHV’s(For-hire vehicles), Green cabs, Paratransit Vehicle and Commuter Vans. Yellow cab is the most iconic as they are allowed to pick the passenger waving for a ride anywhere in the city. Whereas FHV provides only pre-arranged services and Green Taxi permits street hailing but is restricted to some zones only in NYC city. By law, there are 13587 taxis in NYC and each of them must have a medallion fixed to it. Taxi services, for example, Uber have upset the NYC taxi business. Uber has gotten gigantically famous in New York, and its excursions outpaced yellow taxicabs just because of a year ago.</p>
 

@@ -45,7 +45,7 @@ Due to least MAE and MASE.</p>
   </p>
   <h3> Model Accuracy </h3>
   <p align="center">
-  <img height=300 width=400  src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Model%20Accuracy.png?raw=true"/>
+  <img  src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Model%20Accuracy.png?raw=true"/>
 
 
 </p>

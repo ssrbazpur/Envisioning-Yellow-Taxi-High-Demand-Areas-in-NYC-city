@@ -13,6 +13,7 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 <p align="center">
 <img width=400 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/ >
   </p>
+  <p align="justify">
 <ol> <li> <a href=""><b>Data Discovery</b></a>  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,considering the problem as a data analytics challenge. Also Assessed resource needs and availability and drafted an analytic plan.
  </li>
   
@@ -44,7 +45,7 @@ Due to least MAE and MASE.
  
 
   </ol>
-  
+  </p>
   <h3> Model Accuracy </h3>
   <p align="center">
 

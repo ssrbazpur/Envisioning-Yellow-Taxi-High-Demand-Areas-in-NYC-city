@@ -7,7 +7,7 @@ Build highly scalable applications on a fully managed serverless platform.</p>
 
 
 To Deploy the app you can run
-> gcloud app deploy
+""" gcloud app deploy """
 
 Follow the prompt instructions to set it up
 > gcloud app browse

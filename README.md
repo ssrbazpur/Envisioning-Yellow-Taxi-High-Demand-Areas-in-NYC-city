@@ -75,5 +75,31 @@ Published a fully functional website using Flask that enables the yellow cab tax
   Prepared Dashboard that can help the business know the weekly pickups in advance.</p></li>
 </ol>
 
+<h3> Libraries Used </h3>
+
+```
+Flask==1.1.0
+gunicorn==19.6.0	
+pandas==0.22.0
+numpy==1.11.2
+scipy==0.18.1
+scikit-learn>=0.18
+
+
+
+beautifulsoup4==4.8.0
+requests==2.22.0
+requests-oauthlib==1.3.0
+google-cloud-bigquery==1.24.0
+
+
+json5==0.8.5
+pandas-gbq==0.13.0
+lightgbm==2.2.3
+joblib==0.14.1
+```
+
+
+
 <h3> Contact Inforamtion </h3>
 Email : ssrbazpur@gmail.com

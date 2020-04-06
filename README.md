@@ -57,6 +57,7 @@ Due to least MAE and MASE.
 
 
 <h3> Solution Ovierview </h3>
+<IMG height=200 width=300 SRC="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/raw/master/Screenshots/Communication.png?raw=true"/>
 <ol>
   <li>
 I discovered the data from the TLC taxi trip website and then I retrieved the data from the AWS S3 bucket and stored all the data on Google Cloud Platform using Spark and Pandas.</li>

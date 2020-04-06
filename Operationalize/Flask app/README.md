@@ -7,14 +7,11 @@ Build highly scalable applications on a fully managed serverless platform.</p>
 
 
 To Deploy the app you can run
-
->> gcloud app deploy
+> gcloud app deploy
 
 Follow the prompt instructions to set it up
+> gcloud app browse
 
->> gcloud app browse
-
-or Paste your url to new tab
 <h3>
 Why Flask?</h3>
 <ul><li> 
@@ -28,7 +25,7 @@ Integrated unit testing support.</li>
 <h3> Working Protype</h3>
 
 <p align="center">
-<img height=800 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Media1.gif?raw=true"/>
+<img  src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Media1.gif?raw=true"/>
   </p>
   
 

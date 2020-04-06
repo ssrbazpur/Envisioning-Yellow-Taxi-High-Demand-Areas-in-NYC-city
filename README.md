@@ -7,6 +7,15 @@
 Page | 13
 around the NYC city. Also, the yellow cab taxi drivers can make use of the website to see the forecasted demand for different zones in NYC city.</p>
 
+<h3> Data Analytics Lifecycle </h3>
+<ol> <li> <a href="">Data Discovery</a> </li>
+  <li> Data Preparation </li>
+  <li> Model Planning </li>
+  <li> Model Building </li>
+  <li> Operationalize </li>
+  <li> Communication </li>
+  </ol>
+    
 
 <h3> Solution </h3>
 <ol>

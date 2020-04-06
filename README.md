@@ -1,7 +1,7 @@
 <h2 align="center">Envisioning Yellow Taxi High Demand Areas in NYC city</h2>
 
 <p align="center">
-<img width=500 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/nyc%20taxi.jpg?raw=true"/>
+<img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/nyc%20taxi.jpg?raw=true"/>
 </p>
 
 <h3> Introduction</h3>

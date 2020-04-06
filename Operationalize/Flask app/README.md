@@ -17,11 +17,9 @@ Follow the prompt instructions to set it up
 or Paste your url to new tab
 <h3>
 Why Flask?</h3>
-<ul><li>
-  
+<ul><li> 
 Easy to use.</li>
-<li>
-Built in development server and debugger.</li><li>
+<li>Built in development server and debugger.</li><li>
 Integrated unit testing support.</li>
 <li>RESTful request dispatching.</li>
 <li>Extensively documented.</li>

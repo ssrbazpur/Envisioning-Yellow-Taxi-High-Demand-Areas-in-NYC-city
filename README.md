@@ -16,29 +16,29 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 <img width=400 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/ >
   </p>
   <p align="justify">
-<ol> <li> <a href="">Data Discovery</a><p align="justify">  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,considering the problem as a data analytics challenge. Also Assessed resource needs and availability and drafted an analytic plan.</p>
+<ol> <li> <a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Data_Discovery.ipynb">Data Discovery</a><p align="justify">  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,considering the problem as a data analytics challenge. Also Assessed resource needs and availability and drafted an analytic plan.</p>
  </li>
   
-  <li><a href=""> Data Preparation : </a></li><p align="justify"> The key activities that I covered :
+  <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Data_Preparation.ipynb"> Data Preparation : </a></li><p align="justify"> The key activities that I covered :
  Established the analytic sandbox (Google Big Query Analytics Sandbox).
  Extract, Transform, Load, and Transform (ETLT) using Big Query Analytics Sandbox,
  Carried out Data exploration,Data conditioning (merging) and Removed outliers/Missing data.Finally Summarized and visualized the data
 </p>
-  <li> <a href="">Model Planning </a></li> <p align="justify"> The key activities that I did were
+  <li> <a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Model_Planning.ipynb">Model Planning </a></li> <p align="justify"> The key activities that I did were
 Variable Selection
 Model Selection . This phase also include feature ngineering where I used One hot encoding to handle categorical variable and binning to divide time into equal bins.   </p>
 
-  <li><a href=""> Model Building </a></li><p align="justify">The key activities were
+  <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Model_Building.ipynb"> Model Building </a></li><p align="justify">The key activities were
 I took care of following while Building model:
 Train, test spilt with cross validation.
 Grid Search CV to select the best model.
 Metrics Used to Select Best Model: MAE, MASE , RMSE.</p>
-  <li> Communication </li><p align="justify">The Key Activities were:
+  <li> <a href="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/tree/master/Communication"/>Communication</a> </li><p align="justify">The Key Activities were:
 Prepared Dashboards for the executive.
 Prepared Jupyter Notebooks for each phase.
 Model Used -  Random Forest Regressor.
 Due to least MAE and MASE.</p>
-<li> <a href="">Operationalize</a> </li><p align="justify">A fully functional Flask app is deployed so that model can be reused.
+<li> <a href="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/tree/master/Operationalize/Flask%20app">Operationalize</a> </li><p align="justify">A fully functional Flask app is deployed so that model can be reused.
  Google Cloud App Engine was used to deploy my model. 
  I used the local server for development and us ed the App Engine Google server for production. Also App Engine provides the DevOps support.</p>
  

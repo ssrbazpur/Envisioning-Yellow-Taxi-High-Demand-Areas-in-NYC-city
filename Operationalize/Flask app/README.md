@@ -15,16 +15,24 @@ Follow the prompt instructions to set it up
 >> gcloud app browse
 
 or Paste your url to new tab
+<h3>
+Why Flask?</h3>
+<ul><li>
+  
+Easy to use.</li>
+<li>
+Built in development server and debugger.</li><li>
+Integrated unit testing support.</li>
+<li>RESTful request dispatching.</li>
+<li>Extensively documented.</li>
+</ul>
 
-Why Flask?
-Easy to use.
-Built in development server and debugger.
-Integrated unit testing support.
-RESTful request dispatching.
-Extensively documented.
+<h3> Working Protype</h3>
 
-
+<p align="center">
 <img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Media1.gif?raw=true"/>
+  </p>
+  
 
 Environment and tools
 scikit-learn

@@ -45,13 +45,7 @@ Due to least MAE and MASE.</p>
   </p>
   <h3> Model Accuracy </h3>
   <p align="center">
-
-  | Model         | MAE           | Cool  |
-  | ------------- |:-------------:| -----:|
-  | Random Forest Regressor     | right-aligned | $1600 |
-  | Xgboost Regressor      | centered      |   $12 |
-  | Linear Regression | are neat      |    $1 |
-  | ARIMA | are neat      |    $1 |
+  <img height=300 width=400  src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Model%20Accuracy.png?raw=true"/>
 
 
 </p>

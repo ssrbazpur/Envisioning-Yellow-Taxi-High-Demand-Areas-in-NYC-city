@@ -96,6 +96,7 @@ joblib==0.14.1
 
 
 
-<h3> Contact Inforamtion </h3>
+<h3> Contact Information </h3>
 <p align="justify">
 Email : ssrbazpur@gmail.com</p>
+

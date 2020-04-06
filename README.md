@@ -43,7 +43,17 @@ Model Used -  Random Forest Regressor.
 Due to least MAE and MASE.
 
   </ol>
-    
+  
+  <h3> Model Acuuracy </h3>
+
+| Model         | MAE           | Cool  |
+| ------------- |:-------------:| -----:|
+| Random Forest Regressor     | right-aligned | $1600 |
+| Xgboost Regressor      | centered      |   $12 |
+| Linear Regression | are neat      |    $1 |
+
+
+
 
 <h3> Solution Ovierview </h3>
 <ol>
@@ -64,10 +74,4 @@ Published a fully functional website using Flask that enables the yellow cab tax
 Prepared Dashboard that can help the business know the weekly pickups in advance.</li>
 </ol>
 
-<h3> Model Used </h3>
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |

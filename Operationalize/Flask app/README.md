@@ -9,7 +9,6 @@ Build highly scalable applications on a fully managed serverless platform.</p>
 To Deploy the app you can run
 ```python
 gcloud app deploy
-print s
 ```
 
 

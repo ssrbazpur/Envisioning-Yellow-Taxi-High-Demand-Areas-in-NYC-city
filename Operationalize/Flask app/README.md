@@ -2,8 +2,8 @@
 
 <p align="justify">App Engine
 Build highly scalable applications on a fully managed serverless platform.</p>
-
-<img  src="https://lh3.googleusercontent.com/0YQbwwQ7e_zowaJHxT7djbsvWRhLIQ8DO9WL9EYruAiTO4tAk-LIjFK2NH0xtkH65tH5qQweVG3Dzg=e14-rj-sc0xffffff-w1502"/>
+<p align="center">
+<img  height=400 src="https://lh3.googleusercontent.com/0YQbwwQ7e_zowaJHxT7djbsvWRhLIQ8DO9WL9EYruAiTO4tAk-LIjFK2NH0xtkH65tH5qQweVG3Dzg=e14-rj-sc0xffffff-w1502"/></p>
 
 
 To Deploy the app you can run
@@ -13,7 +13,9 @@ gcloud app deploy
 
 
 Follow the prompt instructions to set it up
-> gcloud app browse
+```python
+gcloud app browse
+```
 
 <h3>
 Why Flask?</h3>

@@ -6,6 +6,11 @@
 
 <p align="justify">Dashboards are prepared using Data Studio that is easy to share between executives and also helps the executives to take decisions effectively. The model used in my web application is Random Forest Regressor due to its least error rate measured using MAE,R2,MASE,etc. Also Dashboards were an important important part of the communication phase</p>
 
+<p align="center">
+  <img  src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Model%20Accuracy.png?raw=true"/>
+
+</p>
+
 ### Dashboard 1 
 <p align="center">
 <a href="google.com"><img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/download%20(2).png?raw=true"/></a>

@@ -1,4 +1,4 @@
-<h3> Operationalize</h3>
+<h2> Operationalize</h2>
 
 <p align="justify">App Engine
 Build highly scalable applications on a fully managed serverless platform.</p>
@@ -7,7 +7,6 @@ Build highly scalable applications on a fully managed serverless platform.</p>
 
 
 To Deploy the app you can run
-
 
 >> gcloud app deploy
 

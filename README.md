@@ -13,7 +13,11 @@ around the NYC city. Also, the yellow cab taxi drivers can make use of the websi
 <p align="center">
 <img width=400 height=300 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Data%20lifecycle.PNG?raw=true"/ >
   </p>
-<ol> <li> <a href="">Data Discovery</a>  Before you begin the project, it is important to understand the various specifications, requirements, priorities and required budget. You must possess the ability to ask the right questions. Here, you assess if you have the required resources present in terms of people, technology, time and data to support the project. In this phase, you also need to frame the business problem and formulate initial hypotheses (IH) to test.</li>
+<ol> <li> <a href="">Data Discovery</a>  The key activities that I completed in Data Discovery Phase were - Drafting a Business Problem Statement,  </li>
+```
+  Link to Data Discovery: <a href=""> Data Discovery</a>
+```
+  
   <li> Data Preparation </li>
   <li> Model Planning </li>
   <li> Model Building </li>

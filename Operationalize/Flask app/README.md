@@ -28,7 +28,7 @@ Integrated unit testing support.</li>
 <h3> Working Protype</h3>
 
 <p align="center">
-<img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Media1.gif?raw=true"/>
+<img height=800 src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/Media1.gif?raw=true"/>
   </p>
   
 

@@ -76,4 +76,4 @@ Published a fully functional website using Flask that enables the yellow cab tax
 </ol>
 
 <h3> Contact Inforamtion </h3>
-:heavy_check_mark: Email : ssrbazpur@mail.com
+:heavy_check_mark: Email : ssrbazpur@gmail.com

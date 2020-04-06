@@ -51,6 +51,7 @@ Due to least MAE and MASE.
 | Random Forest Regressor     | right-aligned | $1600 |
 | Xgboost Regressor      | centered      |   $12 |
 | Linear Regression | are neat      |    $1 |
+| ARIMA | are neat      |    $1 |
 
 
 

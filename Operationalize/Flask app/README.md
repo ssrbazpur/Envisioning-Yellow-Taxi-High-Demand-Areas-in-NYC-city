@@ -37,5 +37,5 @@ Integrated unit testing support.</li>
 
 <h3>Setup Guide</h3>
 
-<p align="justify"> The Setup Guide can be found at:  </p>
+<p align="justify"> The Setup Guide can be found at: <a href="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Operationalize/Flask%20app/Setup%20Guide.pdf">Set Up Guide </a>  </p>
 

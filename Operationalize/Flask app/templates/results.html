@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Envisioning Taxi Demand Areas in NYC City</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        #map {
+            width: 100%;
+            height: 350px;
+            text-align: center;
+        }
+        
+        .car-road {
+            width: 110px;
+            overflow: hidden;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+        }
+        
+        #background {
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+        }
+        
+        input,
+        select {
+            width: 50%;
+            padding: 10px 20px;
+            margin: 6px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            width: 50%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        #formfies {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px 10px 10px 10px;
+        }
+        
+        .header {
+            padding: 2px;
+            text-align: center;
+            background: black;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        
+        .left,
+        .right {
+            width: 30%;
+            text-align: left;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, .2);
+            position: sticky;
+            top: 0;
+        }
+        
+        .center {
+            width: 90%;
+        }
+        
+        .list-group {
+            max-height: 300px;
+            margin-bottom: 10px;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .modalDialog {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 99999;
+            display: none;
+            opacity: 2;
+            -webkit-transition: opacity 400ms ease-in;
+            -moz-transition: opacity 400ms ease-in;
+            transition: opacity 400ms ease-in;
+        }
+        
+        .modalDialog > div {
+            width: 400px;
+			
+            position: relative;
+            margin: 10% auto;
+            padding: 5px 20px 13px 20px;
+            border-radius: 10px;
+            background: #fff;
+            background: #339999;
+        }
+        
+        .close {
+            background: #000;
+            color: #FFFFFF;
+            line-height: 30px;
+            position: absolute;
+            right: -12px;
+            text-align: center;
+            top: -10px;
+            width: 44px;
+            text-decoration: none;
+            font-weight: bold;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+            -moz-box-shadow: 1px 1px 3px #000;
+            -webkit-box-shadow: 1px 1px 3px #000;
+            box-shadow: 1px 1px 3px #000;
+        }
+        
+        .close:hover {
+            background: #00d9ff;
+        }
+        
+        .alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+    </style>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+</head>
+
+<body id="background">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{url_for('index')}} ">Envisioning Yellow Taxi Demand in NYC City</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{{url_for('index')}}">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Phases<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Data_Discovery.ipynb">Data Discovery</a></li>
+          <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Data_Preparation.ipynb">Data Preparation</a></li>
+          <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Model_Planning.ipynb">Model Planning</a></li>
+		  <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Model_Building.ipynb">Model Building</a></li>
+		  		  <li><a href="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/tree/master/Communication">Communication</a></li>
+		  		  		  <li><a href="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/tree/master/Operationalize/Flask%20app">Operationalize</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Presentation </a></li>
+    </ul>
+  </div>
+</nav>
+    <div id="map"> </div>
+    <div class="alert success">
+ 
+  <strong>Success!</strong> Predicted Taxi Pickups is {{trips}} in {{ZoneName}}.
+</div>
+    
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+
+          <center>  <p style="color:white;"><u>PREDICTED PICKUPS</u></p></center>
+            <p style="color:white;">Zone name is: {{ZoneName}}</p>
+            <p style="color:white;">The number of pickups is: {{trips}} at {{da1}}</p>
+            
+            
+            
+
+        </div>
+    </div>
+
+    <p>
+
+        <div class="row">
+            <div class="col-sm-3" style="background-color:#339999;">
+            <center>
+<p style="color:white;font-size:15px;"> Zone Information(For Dashboard) </p> </center>
+                <div class="list-group">
+                   
+
+                    <li class="list-group-item">
+                        <b>Zone Name:</b> {{ZoneName}}
+                    </li>
+                    <li class="list-group-item">
+                        <b>Borough Name:</b> {{boro}}
+                    </li>
+                    <li class="list-group-item">
+                        <b>Zone Cluster ID:</b> {{zoneid}}
+                    </li>
+                    <li class="list-group-item ">
+                        <b>Prediction Date and Time </b> {{da1}}
+                    </li>
+                    <li class="list-group-item ">
+                        <b>Current Time in NYC :</b> {{time}}
+                    </li>
+
+                    <li class="list-group-item ">
+                        <b>Predicted Pickups:</b>The number of pickups is: {{trips}} on {{da1}}.
+                    </li>
+
+                </div>
+
+            </div>
+            <center>
+                <div class="col-sm-6">
+                    <div id="formfies">
+
+                        <form action="{{ url_for('predict')}}" method="post">
+
+                            <b>Date Time: </b>
+                            <input type="datetime-local" name="bdaytime" value="2020-04-01T00:00" min="2020-04-01T00:00" max="2020-12-31T00:00">
+                            <br>
+                            <b>Latitude:</b>
+                            <input type="text" name="lat" id="lat-span" required></input>
+                            <br>
+                            <b>Longitude:</b>
+                            <input type="text" name="long" id="lon-span" required></input>
+                            <br>
+
+                            <button type="submit" class="btn btn-success btn-block btn-large">Predict</button>
+          
+                            <a href="{{ url_for('weekpred')}}" class="btn btn-success btn-block btn-large">Visualize Forecasted Weekly Dasboard </a>
+							 <a href="https://datastudio.google.com/s/rHGnKLFumIQ" class="btn btn-success btn-block btn-large">Visualize 2018-19 Dasboard </a>
+                        </form>
+
+                    </div>
+                </div>
+            </center>
+
+            <div class="col-sm-3" style="background-color:#339999;">
+<center>
+<p style="color:white;font-size:15px;"> NYC Live Temperature Scrapped for Dashboard</p> </center>
+                <div class="list-group">
+             <li class="list-group-item">
+                        <b>Prediction Day Temp</b> Max:{{entermax}}<span>&#176;</span>C Min:{{entermin}} <span>&#176;</span>C
+                    </li>
+
+                    <li class="list-group-item">
+                        <b>Today Temp-</b> Max:{{temp1}}<span>&#176;</span>C Min:{{mtemp1}} <span>&#176;</span>C
+                    </li>
+                    <li class="list-group-item">
+                        <b>Tomorrow Temp-</b>Max:{{temp2}}<span>&#176;</span>C Min:{{mtemp2}}<span>&#176;</span>C
+                    </li>
+                    <li class="list-group-item">
+                        <b>Day 3 Temp-</b>Max:{{temp3}}<span>&#176;</span>C Min:{{mtemp3}}<span>&#176;</span>C
+                    </li>
+                    <li class="list-group-item ">
+                        <b>Day 4 Temp-</b>Max:{{temp4}}<span>&#176;</span>C Min:{{mtemp4}}<span>&#176;</span>C
+                    </li>
+                    <li class="list-group-item ">
+                        <b>Day 5 Temp-</b>Max:{{temp5}}<span>&#176;</span>C Min:{{mtemp5}}<span>&#176;</span>C
+                    </li>
+                    <li class="list-group-item ">
+                        <b>Day 6 Temp-</b>Max:{{temp6}}<span>&#176;</span>C Min:{{mtemp6}}<span>&#176;</span>C
+                    </li>
+                    <li class="list-group-item">
+                        <b>Day 7 Temp-</b>Max:{{temp7}}<span>&#176;</span>C Min:{{mtemp7}}<span>&#176;</span>C
+                    </li>
+
+                </div>
+
+            </div>
+        </div>
+
+        </center>
+
+        <div class="header">
+        <H6><i> Copyright @2020 Developed By: Simranjeet Randhawa</i></H6>
+
+    </div>
+        <script>
+            $(document).ready(function() {
+                $('.modalDialog').fadeIn();
+
+                $('.close').on('click', function(event) {
+                    event.preventDefault();
+                    /* Act on the event */
+
+                    $('.modalDialog').fadeOut();
+
+                });
+            });
+
+            function initMap() {
+            var lati = '{{lat}}';
+            var longi = '{{long}}';
+                var myLatLng = {
+                    lat: {{lat}},
+                    lng: {{long}}
+                };
+
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: myLatLng,
+                    zoom: 13
+                });
+                
+                
+                 map.data.loadGeoJson("https://raw.githubusercontent.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/master/Operationalize/Flask%20app/Borough%20Boundaries.geojson");
+            
+    map.data.setStyle(function(feature) {
+  var SD_NAME = feature.getProperty('objectid');
+  var zone = '{{zoneid}}';
+  var color;
+  if (SD_NAME == zone) {
+    color = "blue";
+    return {
+    fillColor: color,
+    strokeWeight: 2,
+    fillOpacity: 0.1
+  }
+  }
+  return {
+    fillColor: color,
+    strokeWeight: 0,
+    fillOpacity: 0
+  }
+  
+});
+
+                
+
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'New York City!',
+                    draggable: true
+                });
+
+                google.maps.event.addListener(marker, 'dragend', function(marker) {
+                    var latLng = marker.latLng;
+                    document.getElementById('lat-span').value = latLng.lat();
+                    document.getElementById('lon-span').value = latLng.lng();
+                });
+            }
+        </script>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJEoMQpN1yhXk7UyY9_bhRK2UZngFDgR4&libraries=places&callback=initMap" type="text/javascript"></script>
+
+</body>
+
+</html>

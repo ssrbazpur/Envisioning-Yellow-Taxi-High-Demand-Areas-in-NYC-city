@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Envisioning Taxi Demand Areas in NYC City</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        #map {
+            width: 100%;
+            height: 400px;
+        }
+        
+        .car-road {
+            width: 110px;
+            overflow: hidden;
+        }
+        
+        .header {
+            padding: 2px;
+            text-align: center;
+            background: black;
+            color: white;
+            font-size: 14px;
+        }
+        
+     
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+    </style>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{url_for('index')}} ">Envisioning Yellow Taxi Demand in NYC City</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{{url_for('index')}}">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Phases<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Data_Discovery.ipynb">Data Discovery</a></li>
+          <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Data_Preparation.ipynb">Data Preparation</a></li>
+          <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Model_Planning.ipynb">Model Planning</a></li>
+		  <li><a href="https://nbviewer.jupyter.org/github/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Model_Building.ipynb">Model Building</a></li>
+		  		  <li><a href="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/tree/master/Communication">Communication</a></li>
+		  		  		  <li><a href="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/tree/master/Operationalize/Flask%20app">Operationalize</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Presentation </a></li>
+    </ul>
+  </div>
+</nav>
+    
+    
+    <div class="alert info">
+  <span class="closebtn">&times;</span>  
+  <center><a href="{{ url_for('go12')}}"><b> Weekly Forecasted Dashboard Update</a>
+  </center>
+</div>
+<hr>
+
+<center>
+     <iframe width="800" height="1067" src="https://datastudio.google.com/embed/reporting/e73c735b-cf23-48ab-9c02-0563df4fa205/page/1M" frameborder="0" style="border:0" allowfullscreen></iframe>       </center>
+
+    <div class="header">
+        <H6><i> Copywrite @2020 Developed By: Simranjeet Randhawa</i></H6>
+
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap" async defer></script>
+
+</body>
+
+</html>

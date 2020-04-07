@@ -92,20 +92,16 @@ joblib==0.14.1
 <h3> Steps to Run </h3>
 
 ```
-1.
-gunicorn==19.6.0	
-pandas==0.22.0
-numpy==1.11.2
-scipy==0.18.1
-scikit-learn>=0.18
-beautifulsoup4==4.8.0
-requests==2.22.0
-requests-oauthlib==1.3.0
-google-cloud-bigquery==1.24.0
-json5==0.8.5
-pandas-gbq==0.13.0
-lightgbm==2.2.3
-joblib==0.14.1
+Prior to running notebooks:
+1. Setup the Google Credentials using the Setup Guide Provided. Also enable Big Query in Google Cloud Platform.
+2. Open the Notebooks in Colab.
+3. Run in the following order: Data Discovery.ipynb -> Data Preparation.ipynb -> Data Planning.ipynb -> Data Modeling.ipynb 
+4. Once the model is trained. Move to the Operationalize folder.
+5. Clone the operationalize folder using git clone.
+6. Move to the folder where main.py is located in the Flask app folder using cd command.
+7. Run python main.py to run on the local server. 
+(Pre-requisite: All requirement.txt must be installed using pip install -r requirement.txt)
+
 ```
 
  <h3> Model Accuracy </h3>

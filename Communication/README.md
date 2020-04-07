@@ -11,12 +11,12 @@
 
 </p>
 
-### Dashboard 1 
+<h2 align="center"> Dashboard 1</h2>
 <p align="center">
 <a href="https://datastudio.google.com/s/pc-GN_BSq_M"><img src="https://github.com/ssrbazpur/Envisioning-Yellow-Taxi-High-Demand-Areas-in-NYC-city/blob/master/Screenshots/download%20(2).png?raw=true"/></a>
   </p>
 
-### Dashboard 2 
+<h2 align="center"> Dashboard 2</h2>
 
 <p align="center">
   <a href="https://datastudio.google.com/s/vLH-KVdO6Ik">

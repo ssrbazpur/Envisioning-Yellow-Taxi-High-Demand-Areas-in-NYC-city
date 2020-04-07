@@ -1,0 +1,5 @@
+entrypoint: "gunicorn -b :$PORT main:app --timeout 180"
+env: flex
+runtime: python
+runtime_config: 
+  python_version: 3

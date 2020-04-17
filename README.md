@@ -105,8 +105,8 @@ Prior to running notebooks:
 ```
 <h3> Dashboards </h3>
   <p align="center">
-  <ul><li>https://datastudio.google.com/reporting/41194526-9091-407c-8409-030039ccaf87/page/AquJB </li>
-    <li>https://datastudio.google.com/reporting/e73c735b-cf23-48ab-9c02-0563df4fa205/page/1M</li>
+  <ul><li><a href="https://datastudio.google.com/reporting/41194526-9091-407c-8409-030039ccaf87/page/AquJB">2018-19 Dashboard</a> </li>
+    <li><a href="https://datastudio.google.com/reporting/e73c735b-cf23-48ab-9c02-0563df4fa205/page/1M"> Forecasted weekly </a></li>
     </ul>
 
 

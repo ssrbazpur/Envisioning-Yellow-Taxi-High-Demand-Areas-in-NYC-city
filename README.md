@@ -121,5 +121,5 @@ Prior to running notebooks:
 
 <h3> Contact Information </h3>
 <p align="justify">
-Email : ssrbazpur@gmail.com</p>
+  <b>Email :</b> ssrbazpur@gmail.com</p>
 

@@ -16,4 +16,4 @@ google-cloud-bigquery==1.24.0
 json5==0.8.5
 pandas-gbq==0.13.0
 lightgbm==2.2.3
-joblib==0.14.1
+joblib==1.2.0
